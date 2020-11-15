@@ -43,7 +43,7 @@ function App() {
     !isAuthenticating && (
       <div className="App container py-3">
         <Navbar collapseOnSelect bg="light" expand="md" className="mb-3">
-          <LinkContainer to="/">
+          <LinkContainer to="/react_ums">
             <Navbar.Brand className="font-weight-bold text-muted">
               User Management System
             </Navbar.Brand>
