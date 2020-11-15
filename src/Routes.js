@@ -8,7 +8,7 @@ import NotFound from "./containers/NotFound";
 export default function Routes() {
   return (
     <Switch>
-      <Route exact path="/home">
+      <Route exact path="/react_ums">
         <Home />
       </Route>
       <Route exact path="/login">
