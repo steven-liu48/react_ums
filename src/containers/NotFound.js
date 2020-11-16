@@ -8,9 +8,11 @@ export default function NotFound() {
     // </div>
         <div className="Home">
         <div className="lander">
-          <h1>Hi there!</h1>
-          <p className="text-muted">Welcome.</p>
-        </div>
+          <h1>Welcome!</h1>
+          <p className="text-muted">This is a React App with a user login system powered by AWS Cognito.<br></br>
+          <a href="https://github.com/steven-liu48/react_ums" target="_blank">See the source code the GitHub❭</a>
+          </p>
+      </div>
       </div>
   );
 }
