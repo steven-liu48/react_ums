@@ -1,5 +1,5 @@
 {
-  "homepage": "https://steven-liu48.github.io/react_ums/",
+  "homepage": ".",
   "name": "user_system",
   "version": "0.1.0",
   "private": true,
@@ -23,8 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "aws s3 sync build/ s3://user-management",
-    "deploy2": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
